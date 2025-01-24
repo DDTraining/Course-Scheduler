@@ -22,3 +22,43 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Node.js modules
+node_modules/
+
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Vite build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*.local
+
+# Firebase service account keys
+serviceAccountKey.json
+
+# Firebase local emulators and cache
+firebase-debug.log
+firebase-debug.*.log
+.firebaserc.local
+.firebase/
+.emulator_out/
+
+
+# Operating system files
+Thumbs.db
+desktop.ini
+
+# Other build artifacts
+*.log
+*.cache
+*.tmp
+
+# Coverage reports
+coverage/
